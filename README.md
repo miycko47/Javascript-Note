@@ -63,10 +63,33 @@ if (time < 10) {
 ## Loops.
 
 - Loops are used in JavaScript to perform repeated tasks based on a condition. Conditions typically return true or false. A loop will continue running until the defined condition returns false.
+- Instead of writing:
 ```
-command to run if program contains helper info
+text += cars[0] + "<br>";
+text += cars[1] + "<br>";
+text += cars[2] + "<br>";
+text += cars[3] + "<br>";
+text += cars[4] + "<br>";
+text += cars[5] + "<br>";
 ```
+- You can write:
+```
+for (let i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+}
+```
+### The for loop
+The for statement creates a loop with 3 optional expressions:
+```
+for (expression 1; expression 2; expression 3) {
+  // code block to be executed
+}
+```
+#### Expression 1 is executed (one time) before the execution of the code block.
 
+#### Expression 2 defines the condition for executing the code block.
+
+####Expression 3 is executed (every time) after the code block has been executed.
 ## Methods.
 
 ## DOM
