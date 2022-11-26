@@ -15,9 +15,14 @@ var z = x + y;
 ```
 
 ### Datatype.
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+There are different types of data that we can use in a JavaScript program. For example,
+```
+const x = 5;
+const y = "Hello";
+Here,
+```
+5 is an integer data.
+"Hello" is a string data.
 
 ### Conditional statement.
 
