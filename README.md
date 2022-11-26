@@ -7,5 +7,8 @@
 -  x = 5;
 -  y = 6;
 -  z = x + y;
- This block of codes has translation of 
+# This block of codes has translation of 
+- x stores the value 5
+- y stores the value 6
+- z stores the value 11
 
