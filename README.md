@@ -6,15 +6,20 @@ JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programm
 
 ### Variables.
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Variables are containers for storing data (storing data values).
+* On this block of code x, y and z are declared with the "var" keyword.
+```
+var x = 5;
+var y = 6;
+var z = x + y;
+```
 
-### Installing
+### Datatype.
 
 * How/where to download your program
 * Any modifications needed to be made to files/folders
 
-### Executing program
+### Conditional statement.
 
 * How to run the program
 * Step-by-step bullets
@@ -22,9 +27,18 @@ JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programm
 code blocks for commands
 ```
 
-## Help
+## Loops.
 
 Any advise for common problems or issues.
 ```
 command to run if program contains helper info
 ```
+
+## Methods.
+
+## DOM
+
+## Events.
+
+
+
