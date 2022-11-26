@@ -4,7 +4,8 @@
 # Variables.
 - Variables in short are containers for storing data (storing data values).
 - Example:
-- var x = 5;
-- var y = 6;
-- var z = x + y;
+-  x = 5;
+-  y = 6;
+-  z = x + y;
+ This block of codes has translation of 
 
