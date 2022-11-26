@@ -32,10 +32,34 @@ In JavaScript we have the following conditional statements:
 - Use else to specify a block of code to be executed, if the same condition is false
 - Use else if to specify a new condition to test, if the first condition is false
 - Use switch to specify many alternative blocks of code to be executed
-```
-code blocks for commands
-```
 
+- The if statmnet.
+Use the if statement to specify a block of JavaScript code to be executed if a condition is true.
+```
+if (hour < 18) {
+  greeting = "Good day";
+}
+```
+- The else Statement.
+Use the else statement to specify a block of code to be executed if the condition is false.
+```
+if (hour < 18) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+```
+- The else if Statement.
+Use the else if statement to specify a new condition if the first condition is false.
+```
+if (time < 10) {
+  greeting = "Good morning";
+} else if (time < 20) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+```
 ## Loops.
 
 - Loops are used in JavaScript to perform repeated tasks based on a condition. Conditions typically return true or false. A loop will continue running until the defined condition returns false.
