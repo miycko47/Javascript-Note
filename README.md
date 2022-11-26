@@ -89,9 +89,27 @@ for (expression 1; expression 2; expression 3) {
 
 #### Expression 2 defines the condition for executing the code block.
 
-####Expression 3 is executed (every time) after the code block has been executed.
-## Methods.
+#### Expression 3 is executed (every time) after the code block has been executed.
 
+## Methods.
+Methods can be defined in various ways:
+```
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  id: 5566,
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+```
+##### In JavaScript, the "this" keyword refers to an object.
+- In an object method, this refers to the object.
+- Alone, this refers to the global object.
+- In a function, this refers to the global object.
+- In a function, in strict mode, this is undefined.
+- In an event, this refers to the element that received the event.
+- Methods like call(), apply(), and bind() can refer this to any object.
 ## DOM
 
 ## Events.
